@@ -47,3 +47,9 @@ render.experimental.xml
 *.pem
 *.p12
 *.key
+
+# Build output logs
+build_output.txt
+
+# Fix/patch backup folder
+fix/
