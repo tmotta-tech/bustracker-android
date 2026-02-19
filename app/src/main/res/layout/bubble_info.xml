@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    app:cardCornerRadius="12dp"
+    app:cardElevation="6dp"
+    app:cardBackgroundColor="#FFFFFF"
+    app:contentPadding="12dp">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:minWidth="120dp">
+
+        <TextView
+            android:id="@+id/bubble_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Linha 123"
+            android:textSize="14sp"
+            android:textStyle="bold"
+            android:textColor="#212121"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="4dp"/>
+
+        <TextView
+            android:id="@+id/bubble_description"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Velocidade: 40 km/h"
+            android:textSize="12sp"
+            android:textColor="#757575"
+            android:layout_gravity="center_horizontal"/>
+            
+        <TextView
+            android:id="@+id/bubble_subdescription"
+             android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Sentido: Centro"
+            android:textSize="12sp"
+            android:textColor="#757575"
+            android:layout_gravity="center_horizontal"/>
+
+    </LinearLayout>
+</androidx.cardview.widget.CardView>

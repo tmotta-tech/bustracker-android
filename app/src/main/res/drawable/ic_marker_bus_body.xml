@@ -1,0 +1,22 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android" android:width="48dp" android:height="48dp" android:viewportWidth="48" android:viewportHeight="48">
+
+    <!-- Outer ring -->
+    <path android:fillColor="#00000000" android:strokeColor="#4285F4" android:strokeWidth="3" android:pathData="M24,24 m-18,0 a18,18 0 1,1 36,0 a18,18 0 1,1 -36,0"/>
+
+    <!-- Inner filled circle -->
+    <path android:fillColor="#4285F4" android:pathData="M24,24 m-14,0 a14,14 0 1,1 28,0 a14,14 0 1,1 -28,0"/>
+
+    <!-- Bus icon (simplified front view) -->
+    <path android:fillColor="#FFFFFF" android:pathData="M18,18 L30,18 C31,18 32,19 32,20 L32,30 C32,31 31,32 30,32 L18,32 C17,32 16,31 16,30 L16,20 C16,19 17,18 18,18 Z"/>
+
+    <!-- Bus windows -->
+    <path android:fillColor="#4285F4" android:pathData="M19,20 L22,20 L22,24 L19,24 Z"/>
+    <path android:fillColor="#4285F4" android:pathData="M26,20 L29,20 L29,24 L26,24 Z"/>
+
+    <!-- Bus grille -->
+    <path android:fillColor="#4285F4" android:pathData="M20,27 L28,27 L28,29 L20,29 Z"/>
+
+    <!-- Bus headlights -->
+    <path android:fillColor="#4285F4" android:pathData="M18,29 m-1,0 a1,1 0 1,1 2,0 a1,1 0 1,1 -2,0"/>
+    <path android:fillColor="#4285F4" android:pathData="M30,29 m-1,0 a1,1 0 1,1 2,0 a1,1 0 1,1 -2,0"/>
+</vector>

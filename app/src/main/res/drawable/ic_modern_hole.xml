@@ -1,0 +1,5 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android" android:width="36dp" android:height="48dp" android:viewportWidth="36" android:viewportHeight="48">
+    <!-- Center Hole (White) - positioned in center of teardrop bulb -->
+    <path android:fillColor="#FFFFFF" android:pathData="M18,30 m-5,0 a5,5 0 1,1 10,0 a5,5 0 1,1 -10,0"/>
+</vector>
+

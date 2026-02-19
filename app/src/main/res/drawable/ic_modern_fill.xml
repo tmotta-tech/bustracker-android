@@ -1,0 +1,5 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android" android:width="36dp" android:height="48dp" android:viewportWidth="36" android:viewportHeight="48">
+    <!-- Inner Drop (To be Tinted) - Teardrop fill -->
+    <path android:fillColor="#FFFFFF" android:pathData="M18,5 C18,5 5,21 5,30 C5,38 11,43 18,43 C25,43 31,38 31,30 C31,21 18,5 18,5 Z"/>
+</vector>
+

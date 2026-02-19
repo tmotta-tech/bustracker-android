@@ -1,0 +1,11 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="28dp"
+    android:height="28dp"
+    android:viewportWidth="24"
+    android:viewportHeight="24">
+  <!-- Layer 3: Hole (White Center Dot) -->
+  <!-- Adjusted to new center Y=15 from Base -->
+  <path
+      android:fillColor="#FFFFFF"
+      android:pathData="M12,15 m-2.5,0 a2.5,2.5 0 1,1 5,0 a2.5,2.5 0 1,1 -5,0"/>
+</vector>

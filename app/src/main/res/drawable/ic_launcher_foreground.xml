@@ -1,0 +1,38 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <!-- Centered Bus Teardrop (V3 style) -->
+    <!-- Grid size 108dp. Safe zone 66dp diameter (radius 33). Center at 54,54. -->
+    
+    <!-- Scale: Original 24px viewport. Draw large at center. -->
+    <group
+        android:scaleX="2.5"
+        android:scaleY="2.5"
+        android:translateX="27"
+        android:translateY="27">
+        
+        <!-- BASE (White) -->
+        <path
+            android:fillColor="#FFFFFF"
+            android:pathData="M12,2 C16,7 20,11.5 20,15 A8,8 0 1,1 4,15 C4,11.5 8,7 12,2 Z"/>
+            
+        <!-- BODY (Orange/BusColor) - Default to Orange for App Icon -->
+        <group
+            android:pivotX="12"
+            android:pivotY="13"
+            android:scaleX="0.90"
+            android:scaleY="0.90">
+            <path
+                android:fillColor="#FF9800" 
+                android:pathData="M12,2 C16,7 20,11.5 20,15 A8,8 0 1,1 4,15 C4,11.5 8,7 12,2 Z"/>
+        </group>
+        
+        <!-- HOLE (White) -->
+        <path
+            android:fillColor="#FFFFFF"
+            android:pathData="M12,15 m-2.5,0 a2.5,2.5 0 1,1 5,0 a2.5,2.5 0 1,1 -5,0"/>
+            
+    </group>
+</vector>

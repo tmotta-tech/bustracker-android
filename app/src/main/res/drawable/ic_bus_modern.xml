@@ -1,0 +1,27 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="48dp"
+    android:height="48dp"
+    android:viewportWidth="24"
+    android:viewportHeight="24">
+  
+  <!-- The image shows a "Teardrop" shape with a white border, colored body, and white inner circle. -->
+  
+  <!-- 1. White Border (Outer Teardrop) -->
+  <path
+      android:fillColor="#FFFFFF"
+      android:pathData="M12,2 C12,2 22,18 22,18 C22,18 17,16 12,16 C7,16 2,18 2,18 C2,18 12,2 12,2 Z"/>
+
+  <!-- 2. Tintable Body (Inner Teardrop, slightly smaller) -->
+  <!-- We assume the user wants the colored part to identify the line -->
+  <path
+      android:name="bus_body"
+      android:fillColor="#FF5722"
+      android:pathData="M12,3.5 C12,3.5 20.5,17.5 20.5,17.5 C20.5,17.5 16.25,15.8 12,15.8 C7.75,15.8 3.5,17.5 3.5,17.5 C3.5,17.5 12,3.5 12,3.5 Z"/>
+
+  <!-- 3. White Center Circle (The "Hole") -->
+  <!-- Positioned near the wider part of the teardrop -->
+  <path
+      android:fillColor="#FFFFFF"
+      android:pathData="M12,14 m-2.5,0 a2.5,2.5 0 1,1 5,0 a2.5,2.5 0 1,1 -5,0"/>
+
+</vector>

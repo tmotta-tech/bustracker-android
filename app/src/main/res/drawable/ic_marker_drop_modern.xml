@@ -1,0 +1,22 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android" android:width="48dp" android:height="48dp" android:viewportWidth="48" android:viewportHeight="48">
+
+    <!-- 
+      Modern Asymmetric Drop Shape 
+      Shape mimics the reference: a fluid, slightly curved drop.
+    -->
+
+    <!-- 1. Thick White Border (External) -->
+    <!-- Drawn first (behind) or as a stroke. Using fill for complex shape control. -->
+    <path android:fillColor="#FFFFFF" android:pathData="M24,2 C24,2 2,22 2,31 C2,41 12,47 24,47 C36,47 46,41 46,31 C46,22 24,2 24,2 Z"/>
+
+    <!-- 2. Tintable Fill (Internal) -->
+    <!-- Slightly smaller to reveal the white border. 
+         This is what changes color with the bus line. 
+    -->
+    <path android:fillColor="#4285F4" android:pathData="M24,6 C24,6 6,24 6,31 C6,39 14,43 24,43 C34,43 42,39 42,31 C42,24 24,6 24,6 Z"/>
+
+    <!-- 3. Center White Hole -->
+    <!-- Standard circle in the middle -->
+    <path android:fillColor="#FFFFFF" android:pathData="M24,31 m-7,0 a7,7 0 1,1 14,0 a7,7 0 1,1 -14,0"/>
+
+</vector>

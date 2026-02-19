@@ -1,0 +1,12 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android" android:width="48dp" android:height="48dp" android:viewportWidth="48" android:viewportHeight="48">
+
+    <!-- Bus Icon ONLY (No background) - White color (fixed) -->
+    <!-- This will be drawn ON TOP of the tinted circle -->
+
+    <!-- Body -->
+    <path android:fillColor="#FFFFFF" android:pathData="M16 11c-2.21 0-4 1.79-4 4v18c0 1.5 1.05 2.76 2.5 2.97V38c0 .55.45 1 1 1h2c.55 0 1-.45 1-1v-2h10v2c0 .55.45 1 1 1h2c.55 0 1-.45 1-1v-2.03c1.45-.21 2.5-1.47 2.5-2.97V15c0-2.21-1.79-4-4-4H16zM17 14h14c.55 0 1 .45 1 1v6c0 .55-.45 1-1 1H17c-.55 0-1-.45-1-1v-6c0-.55.45-1 1-1zm0 9h14c.55 0 1 .45 1 1v4H17v-4c0-.55.45-1 1-1z"/>
+
+    <!-- Drop shadow/Outline for visibility -->
+    <path android:fillColor="#00000000" android:strokeColor="#000000" android:strokeWidth="0.5" android:pathData="M16 11c-2.21 0-4 1.79-4 4v18c0 1.5 1.05 2.76 2.5 2.97V38c0 .55.45 1 1 1h2c.55 0 1-.45 1-1v-2h10v2c0 .55.45 1 1 1h2c.55 0 1-.45 1-1v-2.03c1.45-.21 2.5-1.47 2.5-2.97V15c0-2.21-1.79-4-4-4H16zM17 14h14c.55 0 1 .45 1 1v6c0 .55-.45 1-1 1H17c-.55 0-1-.45-1-1v-6c0-.55.45-1 1-1zm0 9h14c.55 0 1 .45 1 1v4H17v-4c0-.55.45-1 1-1z"/>
+
+</vector>

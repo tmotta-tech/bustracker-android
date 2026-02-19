@@ -1,0 +1,6 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android" android:width="48dp" android:height="48dp" android:viewportWidth="48" android:viewportHeight="48">
+
+    <!-- Arrow pointing UP - To be tinted -->
+    <!-- Positioned slightly outside the center circle -->
+    <path android:fillColor="#FFFFFF" android:strokeColor="#000000" android:strokeWidth="1" android:pathData="M24,0 L32,10 L16,10 Z"/>
+</vector>
