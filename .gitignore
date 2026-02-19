@@ -53,3 +53,9 @@ build_output.txt
 
 # Fix/patch backup folder
 fix/
+
+# Proxy duplicate (lives in separate repo)
+proxy/
+
+# Local build scripts
+build_debug.bat
